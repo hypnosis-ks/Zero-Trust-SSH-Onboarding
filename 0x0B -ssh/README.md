@@ -136,3 +136,26 @@ host entries you need.
 - A CI/CD runner needs access to an appropriate private key stored in the
   platform's secret store; registering a developer's public key does not
   automatically give Jenkins or GitHub Actions that private key.
+
+
+# References
+
+OpenSSH documentation
+
+- OpenSSH SSH manual — SSH connections, authentication, host verification, and public-key authentication.
+- OpenSSH ssh-keygen manual — Generating and managing SSH key pairs.
+- OpenSSH sshd manual — Authorized keys, authentication, and server-side SSH behavior.
+- OpenSSH ssh_config manual — SSH client configuration directives.
+
+
+Puppet documentation
+
+- Puppet File Resource — Managing files, directories, ownership, permissions, and file content.
+- Puppet Resource Syntax — Writing Puppet resource declarations.
+- Puppet Resources — Understanding desired-state configuration management.
+
+Areas Where AI Assisted
+
+SSH concepts - Explained public-key cryptography, private and public keys, host-key verification, authentication, and authorized keys.
+Bash Scripting - Helped structure scripts, explain shell syntax, validate conditions, and improve error handling.
+Puppet - Assisted with understanding Puppet resource declarations, file attributes, dependencies, permissions, and manifest validation.
